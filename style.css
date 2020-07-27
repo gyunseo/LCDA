@@ -247,6 +247,25 @@ body{
     .first, .second, .third{
         border: white;
     }
+    #img{
+        width:40px;
+    }
+}
+
+@media(max-width:630px){
+    .first, .second, .third{
+        height:90%;
+    }
+    .name{
+        font-size:14px;
+    }
+    .age, .inst{
+        font-size:13px;
+    }
+    #img{
+        left:-37px;
+        top:-3px;
+    }
 }
 .footer {
     width:100%;
